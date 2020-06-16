@@ -1,0 +1,67 @@
+
+
+ul, ol {
+    text-align: left;
+    margin: 0px 0px 10px 25px;
+}
+
+.slide_images {
+
+    height: 70px;
+
+    position:relative;
+}
+
+.slide_images img {
+    width: 80%;
+}
+
+.slide_images a {
+    position: absolute;
+    margin-top: auto;
+}
+
+.slide_thumbs {
+    position: relative;
+    top: -181px;
+    height: auto;
+    left: 1px;
+}
+
+.slide_thumbs li {
+    display: block;
+    float: left;
+    list-style: none;
+    width: 24px;
+    height: 28px;
+    bottom: 15px;
+    list-style: none;
+    background: url(https://pw.cdn.gmru.net/static/img/new_design3/slider_thumb.png) -21px bottom no-repeat;
+    z-index: 10;
+}
+
+.slide_thumbs li a {
+    width: 21px;
+    height: inherit;
+    display: block;
+    color: #7c8e93;
+    font: 16px "Times New Roman", Times, serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.slide_thumbs li.selected {
+    height: 33px;
+    background: url(https://pw.cdn.gmru.net/static/img/new_design3/slider_thumb.png) 0px bottom no-repeat;
+}
+
+.slide_thumbs li.selected a {
+    padding-top: 5px;
+    color: #ffffff;
+}
+
+.slide_thumbs img {
+    width: 40px;
+    height: 40px;
+    display: none;
+}

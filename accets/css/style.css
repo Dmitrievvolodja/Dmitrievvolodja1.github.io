@@ -1,0 +1,196 @@
+body {
+    margin 0
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15p;
+    line-height: 1.6;
+    color: #333;
+}
+*,
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+h1, h2, h3, h4,h5, h6{
+    margin: 0;
+}
+
+/* container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* intro */
+
+.intro {
+    display: table;
+    flex-direction: column;
+    justify-content: flex-start;
+        width: 100%;
+        height: 100vh;
+
+        background: url(../images/intro.jpg) center no-repeat;
+        background-size: cover;
+
+    text-align: center}
+.intro_title {
+
+    margin: -550px auto ;
+    font-family: 'Kaushan script', cursive;
+    color: #fce38a;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+.intro__inner {
+    width: 100%;
+    max-width: 1200px;
+    margin:  0 auto;
+    position:;
+    justify-content: center;
+}
+/* header */
+.header {
+    padding-top: 60px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: :1;}
+.container2 {
+    width: 30%;
+    max-width: 1200px;
+    margin: 0 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;]
+    align-items: center;
+}
+
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+
+    color: #fff;
+    text-decoration: none;
+    transition: color .2 linear;
+}
+.nav_link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    display: none;
+    background-color: #fce38a;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+
+
+}
+.nav_link:hover {
+    color: #fce38a;
+}
+.nav_link:hover:after {
+    display: block;
+}
+
+/* bottom */
+
+.knopka {
+    display: contents table;
+    vertical-align: middle;
+    padding: 10px 15px;
+    border: 3px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center
+
+}
+.knopka:hover {
+    background-color: #fff;
+    color: #333;
+
+}
+
+.TOBAP {
+    padding-top: 100px;
+    width: 100%;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.TOBAP__inner {
+     display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.TOBAP__item {
+    width: 23%;
+    padding: 10px 0;
+    position: relative;
+    border-bottom: 3px solid #fff;
+    text-align:end;
+}
+
+/* Slider */
+.drob {
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.drob__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drob__item {
+    width: 23%;
+    padding: 20px 0;
+    position: relative;
+
+    border-top: 3px solid #fff;
+    opacity: .7;
+
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* Banner */
+#news_banner {
+    margin: 300px auto
+}
+
+.megatext{
+    margin:auto 100
+}
